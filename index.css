@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  /* padding: 40px; */
+  overflow-x: hidden;
+  /* background-color: #121212;   */
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 1.2rem;
+  background-color: rgb(73, 69, 70);
+}
+
+header > #logo{
+  /* margin-top: 1rem; */
+}
+header > #logo > a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 1.2rem;
+
+}
+
+#sentence {
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgb(73, 69, 70);
+  margin: 0 auto;
+}
+.left-section{
+  width: 60%;
+}
+.left-section > img{
+  width: 100%;
+}
+
+.right-section > input{
+  width: 85%;
+  margin: auto;
+  padding: 0.5rem;
+  margin-top: 1.2rem;
+}
+main {
+  display: flex;
+  margin-top: 1.5rem;
+}
+.buttons{
+  /* margin-top: 1rem; */
+  display: flex;
+  gap: 1rem;
+}
+.buttons > button{
+  padding: 0;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 0.5rem 1.2rem;
+  background-color: rgb(242, 242, 242);
+}
+.lang-btns{
+  margin-top: 1rem;
+}
+
+footer{
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  background-color: rgb(73, 69, 70);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-section{
+  width: 400px;
+  height: fit-content;
+  background-color: white;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  position: absolute;
+  left: calc(50% - 200px);
+  top: calc(50% - 200px);
+  transition: 0.5s;
+}
+.login-section-go{
+  top: -100%;
+}
+.login-section > input{
+  padding: 0.5rem;
+  border-radius: 10px;
+  outline: none;
+}
+.login-section > button{
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(73, 69, 70);
+  color: white;
+  outline: none;
+  padding: 0.5rem;
+  margin-top: 0.2rem;
+  
+}
+.login-section > p{
+  text-align: right;
+}
+.login-section > i{
+  font-size: 2rem;
+  padding: 1rem 0.2rem;
+  text-align: right;
+}
